@@ -1,0 +1,22 @@
+{
+  "name": "@parcel/resolver-default",
+  "version": "2.0.0-alpha.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parcel-bundler/parcel.git"
+  },
+  "main": "src/DefaultResolver",
+  "engines": {
+    "parcel": "^2.0.0-alpha.1.1"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-alpha.2",
+    "@parcel/utils": "^2.0.0-alpha.2",
+    "micromatch": "^3.0.4",
+    "node-libs-browser": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@parcel/packager-html",
+  "version": "2.0.0-alpha.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parcel-bundler/parcel.git"
+  },
+  "main": "src/HTMLPackager",
+  "engines": {
+    "node": ">= 10.0.0",
+    "parcel": "^2.0.0-alpha.1.1"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-alpha.2",
+    "@parcel/types": "^2.0.0-alpha.2",
+    "@parcel/utils": "^2.0.0-alpha.2",
+    "nullthrows": "^1.1.1",
+    "posthtml": "^0.11.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@parcel/cache",
+  "version": "2.0.0-alpha.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parcel-bundler/parcel.git"
+  },
+  "main": "src/Cache",
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "dependencies": {
+    "@parcel/logger": "^2.0.0-alpha.2",
+    "@parcel/utils": "^2.0.0-alpha.2"
+  }
+}
